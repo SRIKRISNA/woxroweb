@@ -9,6 +9,7 @@
   text-align: center;
   color: white;
   margin-bottom: -10px;
+  z-index: -1;
 }
 .hero h1 p{
     color: #fff;
