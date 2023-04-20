@@ -69,8 +69,11 @@ h1{
 
 
 @media screen and (max-width:780px) {
-    .textonly{
-        width: 100vw;
+    .callbar-text {
+        display: block;
+    }
+    .callbar-text .textonly{
+        width: 100%;
     }
 
 }

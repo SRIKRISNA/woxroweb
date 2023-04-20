@@ -65,5 +65,7 @@ li, button {
     }
     .topbar{
         flex-direction: column;
+        
     }
+    
 }
