@@ -1,0 +1,19 @@
+.sidemenu{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out;
+}
+.sidemenu ul li{
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+.collapse{
+    transform: translateX(0%);
+}

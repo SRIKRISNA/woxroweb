@@ -1,0 +1,41 @@
+.hero img{
+    object-fit: cover;
+    opacity: 0.5;
+    
+}
+.hero{
+    background-color: rgb(0 0 0);
+    position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: -10px;
+}
+.hero h1 p{
+    color: #fff;
+
+}
+h1{
+    font-size: 85px;
+}
+.hero p{
+    font-size: 22px;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75vw;
+    padding: 50px;
+
+}
+
+@media screen and (max-width:780px) {
+    h1{
+        font-size: 25px ;
+    }
+    .hero p{
+        font-size: 18px;
+    }
+
+}

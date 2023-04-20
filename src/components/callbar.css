@@ -1,0 +1,76 @@
+.callbar img{
+
+}
+.callbar{
+    background-color: rgb(0 0 0);
+    position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: -10px;
+}
+.callbar h1{
+    color: #fff;
+
+}
+.btns button{
+    padding: 15px 25px;
+    background-color: transparent;
+    font-size: 16px;
+    border:  1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+#cont .fa-phone{
+    color: #fff;
+}
+#comment .fa-comment{
+    color: #fff;
+}
+#cont:hover{
+    color: #0c0c0c;
+    background-color: #fff;
+}
+#cont:hover .fa-phone{
+    color: #0c0c0c;
+}
+#comment:hover {
+    color: #080808;
+    background-color: #fff;
+}
+#comment:hover .fa-comment{
+    color: #080808;
+}
+h1{
+    font-size: 35px;
+}
+
+.callbar-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75vw;
+}
+.callbar-text{
+    display: flex;
+    /* flex: 40%; */
+    align-items: center;
+}
+.callbar-text .textonly{
+    width: 60%;
+}
+.callbar-text .btns{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+
+@media screen and (max-width:780px) {
+    .textonly{
+        width: 100vw;
+    }
+
+}

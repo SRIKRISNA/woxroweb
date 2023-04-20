@@ -1,0 +1,43 @@
+h2{
+    font-size: 35px;
+}
+.services{
+    margin: 60px 70px;
+}
+.title{
+    /* margin-top: ; */
+}
+.allservices{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-box{
+    background-color: rgb(223, 223, 223);
+    padding: 40px 20px;
+    border-radius: 7px;
+    margin: 10px;
+    flex: 25% ;
+    text-align: left;
+    color: black;
+}
+.services-box h2{
+    font-size: 25px;
+    color: black;
+}
+.fa-solid{
+    color: rgb(34, 34, 34);
+}
+.services-box p{
+    color: rgb(34, 34, 34);
+
+}
+
+/* mpbile */
+@media screen and (max-width:780px) {
+    .allservices{
+        flex-direction: column;        
+    }
+    .services-box{
+        flex: 100%;
+    }
+}
