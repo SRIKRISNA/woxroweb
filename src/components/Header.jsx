@@ -4,7 +4,7 @@ import './header.css';
 import './sidemenu.css';
 import logo from '../assests/woxrologo.png'
 
-const Header = ({click}) => {
+const Header = ({ click }) => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <div className='HeaderContainer'>
@@ -15,32 +15,26 @@ const Header = ({click}) => {
       <div className="logo-container">
         <div className="logo">< img src={logo} alt='logo' height="50px" /></div>
         <div className="menu-all">
-          {/* <SideMenu openMenu={openMenu} /> */}
           <button className='btn-menu'
-              onClick={() => setOpenMenu(!openMenu)}>
-{openMenu ? (<i class="fa-sharp fa-solid fa-times"></i>) :
-                (<i class="fa-sharp fa-solid fa-bars"></i>)
-              }              </button>
-            {/* <button className='btn-menu'
-              onClick={() => setOpenMenu(!openMenu)}>
-              {openMenu ? (<i class="fa-sharp fa-solid fa-times"></i>) :
-                (<i class="fa-sharp fa-solid fa-bars"></i>)
-              }
-            </button> */}
-            <div className={openMenu ? "sidemenu collapse" : "sidemenu"}>
+            onClick={() => setOpenMenu(!openMenu)}>
+            {openMenu ? (<i class="fa-sharp fa-solid fa-times"></i>) :
+              (<i class="fa-sharp fa-solid fa-bars"></i>)
+            }              </button>
+          
+          <div className={openMenu ? "sidemenu collapse" : "sidemenu"} onClick={() => setOpenMenu(false)}>
             <nav className="menubar" >
-                <ul className='navlinks'>
-                    <Link to='/' className='home'><li>Home</li></Link>
-                    <Link to='/temp'><li>About Us</li></Link>
-                    <Link to='/temp'><li>Services</li></Link>
-                    <Link to='/temp'><li>Technology</li></Link>
-                    <Link to='/temp'><li>Careers</li></Link>
-                    <Link to='/temp'><li>Blogs</li></Link>
-                    <Link to='/temp'><li>Our Works</li></Link>
-                    <Link to='/temp'><li>Contact Us</li></Link>
-                </ul>
+              <ul className='navlinks'>
+                <Link to='/' className='home'><li>Home</li></Link>
+                <Link to='/temp'><li>About Us</li></Link>
+                <Link to='/temp'><li>Services</li></Link>
+                <Link to='/temp'><li>Technology</li></Link>
+                <Link to='/temp'><li>Careers</li></Link>
+                <Link to='/temp'><li>Blogs</li></Link>
+                <Link to='/temp'><li>Our Works</li></Link>
+                <Link to='/temp'><li>Contact Us</li></Link>
+              </ul>
             </nav>
-        </div>
+          </div>
         </div>
       </div>
       <nav className="menu">
