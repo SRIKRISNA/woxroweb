@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/woxroweb/static/css/main.0541190b.css",
-    "main.js": "/woxroweb/static/js/main.caa1551d.js",
+    "main.css": "/woxroweb/static/css/main.8f02e191.css",
+    "main.js": "/woxroweb/static/js/main.b9d8efc0.js",
     "static/js/787.4423979f.chunk.js": "/woxroweb/static/js/787.4423979f.chunk.js",
     "static/media/banner.png": "/woxroweb/static/media/banner.2c8ddcc01fa3a326192c.png",
     "static/media/woxroglobe.png": "/woxroweb/static/media/woxroglobe.ffe47696219b34120182.png",
     "static/media/woxrologo.png": "/woxroweb/static/media/woxrologo.92858195ffb00e0e1110.png",
     "index.html": "/woxroweb/index.html",
-    "main.0541190b.css.map": "/woxroweb/static/css/main.0541190b.css.map",
-    "main.caa1551d.js.map": "/woxroweb/static/js/main.caa1551d.js.map",
+    "main.8f02e191.css.map": "/woxroweb/static/css/main.8f02e191.css.map",
+    "main.b9d8efc0.js.map": "/woxroweb/static/js/main.b9d8efc0.js.map",
     "787.4423979f.chunk.js.map": "/woxroweb/static/js/787.4423979f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0541190b.css",
-    "static/js/main.caa1551d.js"
+    "static/css/main.8f02e191.css",
+    "static/js/main.b9d8efc0.js"
   ]
 }
