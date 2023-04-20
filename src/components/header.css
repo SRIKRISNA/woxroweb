@@ -67,5 +67,7 @@ li, button {
         flex-direction: column;
         
     }
-    
+    .topbar p{
+        margin: 5px;
+    }
 }
